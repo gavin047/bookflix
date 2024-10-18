@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Home Container */
+.home-container {
+    background-color: #141414; /* Dark background */
+    color: white;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+    background-color: #333; /* Dark background for navbar */
+}
+
+.logo {
+    font-size: 24px; /* Logo size */
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex; /* Flexbox for horizontal layout */
+}
+
+.nav-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    margin-left: 20px; /* Space between links */
+    font-size: 18px; /* Font size for nav links */
+}
+
+.cart-button {
+    margin-left: 30px; /* Extra space for cart button */
+}
+
+/* Main Content Styles */
+.main-content {
+    flex-grow: 1; /* Take remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+h1 {
+    font-size: 48px; /* Main heading size */
+}
+
+p {
+    font-size: 24px; /* Subheading size */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack header items on small screens */
+        align-items: flex-start; /* Align items to the start */
+        padding: 10px;
+   }
+
+   .nav-links {
+       flex-direction: column; /* Stack nav links on small screens */
+       width: 100%; /* Full width for navbar on mobile */
+       margin-top: 10px; /* Space above navbar on mobile */
+   }
+
+   .nav-link {
+       margin-left: 0; /* Remove left margin on mobile for stacked layout */
+       margin-bottom: 10px; /* Space between stacked links on mobile */
+   }
+
+   h1 {
+       font-size: 32px; /* Smaller heading size on mobile */
+   }
+
+   p {
+       font-size: 18px; /* Smaller subheading size on mobile */
+   }
+}

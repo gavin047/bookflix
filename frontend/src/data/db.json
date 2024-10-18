@@ -1,0 +1,166 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "releaseDate": "2020-08-13",
+        "starRating": 4.5,
+        "price": 15.99
+      },
+      {
+        "id": 2,
+        "title": "Klara and the Sun",
+        "author": "Kazuo Ishiguro",
+        "releaseDate": "2021-03-02",
+        "starRating": 4.2,
+        "price": 18.50
+      },
+      {
+        "id": 3,
+        "title": "The Vanishing Half",
+        "author": "Brit Bennett",
+        "releaseDate": "2020-06-02",
+        "starRating": 4.6,
+        "price": 16.99
+      },
+      {
+        "id": 4,
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "releaseDate": "2021-05-04",
+        "starRating": 4.8,
+        "price": 19.99
+      },
+      {
+        "id": 5,
+        "title": "Malibu Rising",
+        "author": "Taylor Jenkins Reid",
+        "releaseDate": "2021-06-01",
+        "starRating": 4.4,
+        "price": 17.99
+      },
+      {
+        "id": 6,
+        "title": "The Invisible Life of Addie LaRue",
+        "author": "V.E. Schwab",
+        "releaseDate": "2020-10-06",
+        "starRating": 4.7,
+        "price": 16.50
+      },
+      {
+        "id": 7,
+        "title": "The Guest List",
+        "author": "Lucy Foley",
+        "releaseDate": "2020-02-20",
+        "starRating": 4.3,
+        "price": 14.99
+      },
+      {
+        "id": 8,
+        "title": "Crying in H Mart",
+        "author": "Michelle Zauner",
+        "releaseDate": "2021-04-20",
+        "starRating": 4.5,
+        "price": 15.00
+      },
+      {
+        "id": 9,
+        "title": "The Song of Achilles",
+        "author": "Madeline Miller",
+        "releaseDate": "2012-09-10",
+        "starRating": 4.6,
+        "price": 14.50
+      },
+      {
+        "id": 10,
+        "title": "'Salem's Lot",
+        "author": "Stephen King",
+        "releaseDate": "1975-10-17",
+        "starRating": 4.2,
+        "price": 12.99
+        
+
+      },
+      {
+          "id": 11,
+          "title": "'The Night Circus'",
+          "author":"Erin Morgenstern", 
+             "releaseDate":"2011-09-13", 
+             "starRating" :4.7, 
+             "price" :16.99 
+      },
+      {
+             "id" :12, 
+             "title":"Daisy Jones & The Six", 
+             "author":"Taylor Jenkins Reid", 
+             "releaseDate":"2019-03-05", 
+             "starRating" :4.5, 
+             "price" :18.00 
+     },
+     {
+            "id" :13, 
+            "title":"Normal People", 
+            "author":"Sally Rooney", 
+            "releaseDate":"2018-08-28", 
+            "starRating" :4.3, 
+            "price" :14.99 
+     },
+     {
+            "id" :14, 
+            "title":"A Man Called Ove", 
+            "author":"Fredrik Backman", 
+            "releaseDate":"2012-07-15", 
+            "starRating" :4.6, 
+            "price" :16.50 
+     },
+     {
+            "id" :15, 
+            "title":"Where the Crawdads Sing", 
+            "author":"Delia Owens", 
+            "releaseDate":"2018-08-14", 
+            "starRating" :4.8, 
+            "price" :17.99 
+     },
+     {
+            "id" :16, 
+            "title":"The Seven Husbands of Evelyn Hugo", 
+            "author":"Taylor Jenkins Reid", 
+            "releaseDate":"2017-06-13", 
+            "starRating" :4.5, 
+            "price" :15.99  
+     },
+     {
+            "id" :17, 
+            "title":"Little Fires Everywhere",  
+            "author":"Celeste Ng",  
+            "releaseDate":"2017-09-12",  
+            "starRating" :4.6,  
+            "price" :18.50  
+     },
+     {
+            "id" :18,  
+            "title":"The Alchemist",  
+            "author":"Paulo Coelho",  
+            "releaseDate":"1988-01-01",  
+            "starRating" :4.3,  
+            "price" :12.00  
+     },
+     {
+            "id" :19,  
+            "title":"Educated",  
+            "author":"Tara Westover",  
+            "releaseDate":"2018-02-20",  
+            "starRating" :4.7,  
+            "price" :15.00  
+     },
+     {
+            "id" :20,  
+            "title":"Becoming",  
+            "author":"Michelle Obama",  
+            "releaseDate":"2018-11-13",  
+            "starRating" :4.8,  
+            "price" :16.99  
+     }
+   ]
+  }

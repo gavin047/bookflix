@@ -1,0 +1,38 @@
+.payment-container {
+    background-color: #141414; /* Dark background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #e50914; /* Button color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+    background-color: #f40612; /* Darker red on hover */
+}

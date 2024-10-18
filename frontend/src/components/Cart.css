@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cart Container */
+.cart-container {
+    background-color: #141414; /* Dark background */
+    color: white;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    font-size: 36px; /* Main heading size */
+    margin-bottom: 20px;
+}
+
+/* Cart Items List */
+.cart-items {
+    width: 100%;
+    max-width: 600px; /* Max width for cart items */
+    margin-bottom: 20px;
+}
+
+/* Cart Item */
+.cart-item {
+    display: flex;
+    justify-content: space-between; /* Space between book details and remove button */
+    align-items: center; /* Center items vertically */
+    background-color: #333; /* Dark item background */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space between items */
+}
+
+/* Book Details */
+.book-details {
+    flex-grow: 1; /* Take remaining space */
+}
+
+.book-title {
+    font-size: 18px; /* Title size */
+}
+
+.book-author {
+    font-size: 14px; /* Author size */
+}
+
+/* Remove Button */
+.remove-button {
+    background-color: #e50914; /* Remove button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer; /* Pointer on hover */
+}
+
+.remove-button:hover {
+    background-color: #f40612; /* Darker red on hover */
+}
+
+/* Empty Cart Message */
+.empty-cart {
+   font-size: 18px;
+   text-align:center;
+   margin-top:20px;
+}
