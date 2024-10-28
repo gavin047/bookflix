@@ -6,8 +6,8 @@ import './Login.css'; // Import CSS file for styling
 
 // Validation schema
 const LoginSchema = Yup.object().shape({
-    username: Yup.string().required('Username is required'),
-    password: Yup.string().required('Password is required'),
+    username: Yup.string().required('Username is required.'),
+    password: Yup.string().required('Password is required.'),
 });
 
 const Login = () => {
