@@ -6,9 +6,9 @@ const Cart = () => {
 
     return (
         <div className="cart-container">
-            <h1>Your Shopping Cart</h1>
+            <h1>Your Shopping Cart 🛒</h1>
             {cart.length === 0 ? (
-                <p>Your cart is empty.</p>
+                <p>Your cart 🛒 is empty.</p>
             ) : (
                 <ul>
                     {cart.map((book, index) => (
