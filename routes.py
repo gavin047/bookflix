@@ -100,7 +100,7 @@ def purchase_book():
     )
     db.session.add(new_purchase)
     db.session.commit()
-    return jsonify({"message": "Purchase recorded successfully!"}), 201
+    return jsonify({"message": "Purchase recorded successfully!!!"}), 201
 
 # Get all purchases for a user (for order history)
 @main_routes.route('/api/purchases/<int:user_id>', methods=['GET'])
