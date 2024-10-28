@@ -8,7 +8,7 @@ import './SignIn.css'; // Import CSS
 
 // Updated validation schema: Only email validation remains
 const SignInSchema = Yup.object().shape({
-    email: Yup.string().email('Invalid email').required('Email is required'),
+    email: Yup.string().email('Invalid email!').required('Email is required!'),
     password: Yup.string(), // No password validation required
 });
 
